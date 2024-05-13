@@ -34,7 +34,7 @@ export default function NavbarMenu() {
           <Navbar.Link
             // style={{ color: scrolled ? "#F7CA18" : "" }}
             className=" text-[17px] flex items-center h-full text-[#f718e5]"
-            href="about"
+            href="/about"
           >
             Hakkımda
           </Navbar.Link>

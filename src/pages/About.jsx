@@ -3,7 +3,7 @@ import avatar from "../assets/avatar.jpg";
 
 const About = () => {
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex flex-col lg:flex-row items-center gap-2">
       <img className="w-[500px] flex-1" src={avatar} alt="" />
       <div className="flex-1 p-10">
         <p>
