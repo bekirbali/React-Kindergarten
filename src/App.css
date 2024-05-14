@@ -10,8 +10,8 @@ body {
 }
 
 .main {
-  height: calc(100dvh - 56px);
-  background-image: url("/src/assets/kindergarten.jpg");
+  height: calc(100vh - 56px);
+  background-image: url("/src/assets/kindergarten4.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
