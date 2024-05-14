@@ -11,13 +11,9 @@ export default function NavbarMenu() {
         className="!bg-transparent test w-full backdrop-blur-md"
       >
         <Navbar.Brand href="/">
-          <img
-            src={logo}
-            className="mr-3 h-6 sm:h-9"
-            alt="Flowbite React Logo"
-          />
+          <img src={logo} className="mr-3 h-6 sm:h-9" alt="" />
           <span
-            className={`self-center whitespace-nowrap text-xl font-semibold text-[#f718e5]`}
+            className={`self-center whitespace-nowrap text-xl font-semibold text-purple-600`}
           >
             Kindergarten
           </span>
@@ -26,14 +22,14 @@ export default function NavbarMenu() {
         <Navbar.Collapse>
           <Navbar.Link
             // style={{ color: scrolled ? "#F7CA18" : "" }}
-            className=" text-[17px] flex items-center h-full text-[#f718e5]"
+            className=" text-[17px] flex items-center h-full text-purple-600"
             href="/"
           >
             Ana Sayfa
           </Navbar.Link>
           <Navbar.Link
             // style={{ color: scrolled ? "#F7CA18" : "" }}
-            className=" text-[17px] flex items-center h-full text-[#f718e5]"
+            className=" text-[17px] flex items-center h-full text-purple-600"
             href="/about"
           >
             Hakkımda
