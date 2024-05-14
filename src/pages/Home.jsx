@@ -11,7 +11,7 @@ const Home = () => {
     navigate(`/blogs/${blog.id}`, { state: { id: blog } });
   };
   return (
-    <div className="flex justify-center mt-10 gap-3 flex-wrap">
+    <div className="flex justify-center mt-10 gap-10 flex-wrap">
       {blogs.map((blog) => {
         return (
           <div key={blog.id}>
