@@ -11,25 +11,25 @@ export default function NavbarMenu() {
         className="!bg-transparent test w-full backdrop-blur-md"
       >
         <Navbar.Brand href="/">
-          <img src={logo} className="mr-3 h-6 sm:h-9" alt="" />
-          <span
-            className={`self-center whitespace-nowrap text-xl font-semibold text-purple-600`}
-          >
-            Kindergarten
-          </span>
+          <div className="flex flex-col md:flex-row items-center">
+            <img src={logo} className="w-20 h-10" alt="" />
+            <span className="self-center whitespace-nowrap text-xl font-semibold text-purple-600 text-wrap">
+              Esra' nın Etkinlik Havuzu
+            </span>
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Navbar.Link
             // style={{ color: scrolled ? "#F7CA18" : "" }}
-            className=" text-[17px] flex items-center h-full text-purple-600"
+            className=" text-[18px] font-[500] flex items-center h-full text-purple-600"
             href="/"
           >
             Ana Sayfa
           </Navbar.Link>
           <Navbar.Link
             // style={{ color: scrolled ? "#F7CA18" : "" }}
-            className=" text-[17px] flex items-center h-full text-purple-600"
+            className=" text-[18px] font-[500] flex items-center h-full text-purple-600"
             href="/about"
           >
             Hakkımda

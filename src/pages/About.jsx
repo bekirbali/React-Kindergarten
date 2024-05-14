@@ -39,14 +39,19 @@ const About = () => {
     //   </div>
     // </div>
     <div className="main">
-      <div className="container">
+      <div className="container z-10">
         <header>
           <h1>Hakkımda</h1>
         </header>
         <section>
-          <div className="profile">
-            <img src={avatar} alt="Profil Resmi" />
-            <div className="info">
+          <div className="profile flex flex-col sm:flex-row items-center justify-center">
+            <img
+              src={avatar}
+              alt="Profil Resmi"
+              // className="!w-[50px] mx-auto sm:mx-0 rounded-full mb-4 sm:me-4 sm:mb-0"
+            />
+
+            <div className="info text-center">
               <h2>Esra</h2>
               <p className="text-[#ececec]">
                 Hacettepe Üniversitesi Okul Öncesi Eğitimi Bölümü Öğrencisi
